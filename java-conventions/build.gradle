@@ -1,0 +1,15 @@
+plugins {
+    id("java-gradle-plugin")
+    id("maven-publish")
+}
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+publishing {
+    repositories {
+        mavenLocal()
+    }
+}

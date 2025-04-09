@@ -1,0 +1,11 @@
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+rootProject.name = 'spring4mc'
+
+//includeBuild("java-conventions")
+//include(":api")
+//include(":spigot")
+//include(":core")
+//include(":util")
+
+includeBuild("horizon")
